@@ -34,7 +34,8 @@
     <header class="siteheader">
         <div class="container">
             <p itemprop="name"><a href="~/">@settings.Value.Name</a></p>
-            By <span itemprop="author">@settings.Value.Owner</span>
+            @*By <span itemprop="author">@settings.Value.Owner</span>*@
+            <span itemprop="description">@settings.Value.Description</span>
         </div>
     </header>
 
@@ -57,16 +58,30 @@
                             <li><a asp-controller="Blog" asp-action="Edit">New post</a></li>
                             <li><a href="~/logout/" title="Sign out as administrator">Sign out</a></li>
                         }
-                        else
+
+                        @*else
                         {
                             <li><a href="~/login/?returnUrl=@path" rel="nofollow" title="Sign in as administrator">Sign in</a></li>
-                        }
+                        }*@
                     }
                 </ul>
             </nav>
-            <p>
+            <span itemscope="" itemtype="http://schema.org/Person" itemprop="publisher author">
+                <link itemprop="url" href="https://madskristensen.net">
+                <meta itemprop="name" content="Aivaras Šimulis">
+                Let's connect on 
+                <a href="https://www.linkedin.com/in/aivarassimulis/" rel="me" itemprop="sameAs">LinkedIn</a>
+                ,
+                <a href="https://github.com/aivsim" rel="me" itemprop="sameAs">GitHub</a>
+                ,
+                <a href="https://www.facebook.com/aivsim" rel="me" itemprop="sameAs">Facebook</a>
+                and                  
+                <a href="https://twitter.com/aivsim" rel="me" itemprop="sameAs">Twitter</a>
+                . 
+            </span>
+            @*<p>
                 Powered by <a href="https://github.com/madskristensen/Miniblog.Core" rel="noopener noreferrer" target="_blank">Miniblog.Core</a>
-            </p>
+            </p>*@
         </div>
     </footer>
 
