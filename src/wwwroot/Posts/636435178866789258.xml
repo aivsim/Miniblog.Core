@@ -3,7 +3,7 @@
   <title>Welcome to your new blog</title>
   <slug>welcome</slug>
   <pubDate>2017-10-13 18:59:01</pubDate>
-  <lastModified>2017-10-19 21:59:29</lastModified>
+  <lastModified>2017-11-11 19:11:14</lastModified>
   <excerpt>Congratulations on your new blog</excerpt>
   <content>&lt;p&gt;Congratulations on installing your new blog!&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/madskristensen/Miniblog.Core"&gt;Miniblog.Core&lt;/a&gt; is optimized to give your visitors a fantastic reading experience on all types of devices. It is built to be fast and responsive so your visitors never have to wait for the content to load.&lt;/p&gt;
@@ -82,6 +82,18 @@
       <content>This is a comment made by the owner of the blog while logged in.
 
 It looks slightly different to make it clear that this is a response from the owner.</content>
+    </comment>
+    <comment isAdmin="false" id="7a935a7d-106a-4907-ad7d-48773684f5f8">
+      <author>Test test</author>
+      <email>test@mailinator.com</email>
+      <date>2017-11-11 19:9:13</date>
+      <content>Test</content>
+    </comment>
+    <comment isAdmin="true" id="a45d9b78-59cd-4fbb-a7f2-84bce26a8181">
+      <author>Test Tests</author>
+      <email>testtest@mailinator.com</email>
+      <date>2017-11-11 19:11:14</date>
+      <content>Test</content>
     </comment>
   </comments>
 </post>

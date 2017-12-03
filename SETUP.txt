@@ -2,6 +2,10 @@
 .NET Core SDK 2.0;
 Visual Studio Community;
 
+Logo:
+Avatar - user
+Icon - minimal
+
 References:	
 https://madskristensen.net/blog/miniblogcore-is-a-new-blog-engine-built-using-aspnet-core-20/
 
